@@ -1,0 +1,21 @@
+p[class]{
+    color: deeppink;
+}
+p[class="Favname"]{
+    color: blue;
+}
+p[class|="Fav-Sport"]{
+    color:red;
+}
+p[class^="Fav"]{
+    background-color: brown;
+}
+p[class$="css"]{
+    color: yellow;
+}
+p[class*=cs]{
+    background-color: orange;
+}
+p[class~="name"]{
+    text-align: center;
+}
